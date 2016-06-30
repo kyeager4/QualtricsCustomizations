@@ -1,0 +1,26 @@
+/*This CSS has been tested with the built-in templates "Boxed Questions" and "Minimal 2014". It will NOT work with the newer responsive templates that use wide bars instead of checkboxes, and it will not work with the older non-responsive templates. (Some colors may be affected, but those templates use other selectors for the elements that would still need to be customized.)*/
+
+/*Remove Qualtrics logo in header [typically only affects older templates]*/
+#Plug {display: none !important;}
+
+
+/*Change next and previous button colors ("static" and on mouseover/focus*/
+.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {background-color: #002554;}
+.Skin #Buttons #NextButton:hover, .Skin #Buttons #NextButton:focus, .Skin #Buttons #PreviousButton:hover, .Skin #Buttons #PreviousButton:focus{background: #4994CB;}
+
+/*Add extra padding on top and sides of survey (looks better if embedding the survey in another page using iframes)*/
+.Skin .SkinInner{padding-right: 30px; padding-left: 30px; padding-top: 30px;}
+
+/*Change colors for most survey items including multiple choice and matrix table (radio buttons and checkboxes); surround colors for clicked-on dropdowns; sliders (bar and slider types, but not the star type); text entry box border color (when cursor is inside the box); and number labels for drag-and-drop ranking items*/
+.Skin label.q-checkbox,.Skin label.q-radio{border:2px solid #4994CB;}
+.Skin label.q-checkbox.q-focused,.Skin label.q-radio.q-focused{outline:#000 dotted thin}
+.Skin label.q-radio.q-checked{background-color:#4994CB;}
+.Skin label.q-radio.q-checked.q-focused{background-color:#83BBE2}
+.Skin label.q-checkbox.q-checked{background-color:#4994CB;}
+.Skin label.q-checkbox.q-checked.q-focused{background-color:#83BBE2}
+.Skin .TE textarea:focus,.Skin input.TextEntryBox:focus,.Skin input[type=text]:focus,.Skin input[type=password]:focus,.Skin input[type=search]:focus,.Skin select:focus,.Skin textarea:focus{border-color:#4994CB;}
+.Skin .PGR .DragAndDrop .rank,.Skin .RO .DND .rank{background-color:#4994CB;color:#fff}
+.Skin .RO .DND .rank,.Skin .RO .DND ul.Edited .rank,.Skin .RO .DND ul.NotEdited li:hover .rank{background:#4994CB;color:#fff}
+.Skin .HBAR .trackHolderRel .track:hover,.Skin .HBAR .trackHolderRel.activated .track{border-color:#4994CB}
+.Skin .SB input,.Skin .SS .horizontalbar .handle,.Skin .SS .verticalbar .SSTrack .handle,.Skin .horizontalbar .BarContainer:hover .bar,.Skin .horizontalbar .Slider .handle,.Skin .horizontalbar .activated .bar{background:#4994CB}
+.Skin .SS .horizontalbar .handle:hover,.Skin .horizontalbar .Slider .handle:hover{background-color:#4994CB;}
