@@ -17,5 +17,5 @@ Instructions for Kent State users:
 6. Be sure to preview your survey to make sure that the colors are applied as you expect them to be.
 
 ## Resources
-- [Kent State University web color palette (2016 rebrand)](http://www.kent.edu/webteam/color-palettes)
+- [Kent State University web color palette (current as of 2016)](http://www.kent.edu/webteam/color-palettes)
 - [Color-Hex.com](http://www.color-hex.com/)
