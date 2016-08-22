@@ -1,5 +1,5 @@
 # Qualtrics Customizations
-Simple CSS overrides for customizing existing Qualtrics templates. These will be geared towards the Kent State color palette, but can be used as a starting point for users outside of Kent State.
+Simple CSS overrides (adapted from Qualtrics's own CSS) for customizing existing Qualtrics templates. These will be geared towards the Kent State color palette, but can be used as a starting point for users outside of Kent State.
 
 
 Instructions for Kent State users:
