@@ -1,5 +1,8 @@
 /*This CSS has been tested with the built-in templates "Boxed Questions" and "Minimal 2014". It will NOT work with the newer responsive templates that use wide bars instead of checkboxes, and it will not work with the older non-responsive templates. (Some colors may be affected, but those templates use other selectors for the elements that would still need to be customized.)*/
 
+/*(Optional) Import font from Google Fonts*/
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+
 /*Remove Qualtrics logo in header [typically only affects older templates]*/
 #Plug {display: none !important;}
 
@@ -10,6 +13,9 @@
 
 /*Add extra padding on top and sides of survey (looks better if embedding the survey in another page using iframes)*/
 .Skin .SkinInner{padding-right: 30px; padding-left: 30px; padding-top: 30px;}
+
+/*(Optional) Set fonts for survey body and buttons to use a Google Font (Source Sans Pro, sans-serif fallback)*/
+body, .Skin, .Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton, .Skin #Buttons #NextButton:hover, .Skin #Buttons #NextButton:focus, .Skin #Buttons #PreviousButton:hover, .Skin #Buttons #PreviousButton:focus {font-family: 'Source Sans Pro', sans-serif !important;}
 
 /*Change colors for most survey items including multiple choice and matrix table (radio buttons and checkboxes); surround colors for clicked-on dropdowns; sliders (bar and slider types, but not the star type); text entry box border color (when cursor is inside the box); and number labels for drag-and-drop ranking items*/
 .Skin label.q-checkbox,.Skin label.q-radio{border:2px solid #4994CB;}
