@@ -30,3 +30,7 @@ body, .Skin, .Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton, .Skin #
 .Skin .HBAR .trackHolderRel .track:hover,.Skin .HBAR .trackHolderRel.activated .track{border-color:#4994CB}
 .Skin .SB input,.Skin .SS .horizontalbar .handle,.Skin .SS .verticalbar .SSTrack .handle,.Skin .horizontalbar .BarContainer:hover .bar,.Skin .horizontalbar .Slider .handle,.Skin .horizontalbar .activated .bar{background:#4994CB}
 .Skin .SS .horizontalbar .handle:hover,.Skin .horizontalbar .Slider .handle:hover{background-color:#4994CB;}
+
+/*Change color fills for progress bar (ProgressBarFill is the "filled-in" color; ProgressBarFillContainer is the "unfilled" background color)*/
+.Skin .ProgressBarFill{background-color: #4994CB;}
+.Skin #ProgressBarFillContainer, .Skin .ProgressBarFillContainer{background: #ebebeb;}
