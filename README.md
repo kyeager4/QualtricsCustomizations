@@ -22,5 +22,5 @@ View the CSS: [item color customizations - boxed questions template.css](https:/
 2016-09-20: Added code showing how to use [Google Fonts](https://fonts.google.com/) in a survey.
 
 ## Resources
-- [Kent State University web color palette (current as of 2016)](https://www.kent.edu/web-standards/colors)
+- [Kent State University Brand colors and logos](https://www.kent.edu/brand)
 - [Color-Hex.com](http://www.color-hex.com/)
